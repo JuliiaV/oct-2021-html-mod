@@ -1,0 +1,49 @@
+body {
+    margin: 10px;
+    background: rgba(255, 69, 69, 0.3);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Calibri;
+    margin: 10px;
+}
+
+h2 {
+    background: #ab7070;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.album_name {
+    width: 320px;
+    height: 300px;
+    text-align: center;
+    background: rgba(161, 152, 160, 0.3);
+    margin: 40px;
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.father {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
