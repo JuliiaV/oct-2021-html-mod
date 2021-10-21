@@ -42,8 +42,7 @@
 
 .main_left_content_B {
     display: flex;
-    column-gap: 5px
-
+    column-gap: 5px;
 }
 
 .main_left {
