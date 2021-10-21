@@ -1,0 +1,55 @@
+:root {
+    color: #bbdcf5;
+    font-family: "Calibri Light"
+}
+.container {
+    width: 450px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.item1 {
+    display: flex;
+    height: 50%;
+    column-gap: 10px;
+    font-size: 25px;
+}
+.value1 {
+    display: flex;
+    background: #2269BB;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.value2 {
+    display: flex;
+    background: #2269BB;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    background: #2269BB;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.item3 {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+.item {
+    width: 25%;
+    height: 150px;
+    flex-grow: 1;
+}
+.kabobs1, .kabobs2, .kabobs3 {
+    background: #16457A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
