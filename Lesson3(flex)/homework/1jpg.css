@@ -1,0 +1,42 @@
+:root {
+    color: #575757;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    border: 5px solid silver;
+    border-radius: 5px;
+}
+.filling1 {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background: silver;
+}
+.main {
+    display: flex;
+    height: 160px;
+    column-gap: 5px;
+}
+.filling2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 59%;
+    margin-left: 5px;
+}
+.filling3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    width: 38%;
+}
