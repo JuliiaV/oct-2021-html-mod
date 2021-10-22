@@ -1,0 +1,55 @@
+:root {
+    color: #F7F8FB;
+    font-family: "Calibri Light"
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.widgets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2269BB;
+    height: 22%;
+    font-size: 20px;
+}
+
+.inside {
+    display: flex;
+    column-gap: 5px;
+    margin-top: 5px;
+}
+
+.item {
+    width: 25%;
+    height: 150px;
+    flex-grow: 1;
+}
+
+.big, .bigger, .huge {
+    background: #16457A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    align-items: center;
+    background: #2269BB;
+    height: 46%;
+    font-size: 20px;
+}
