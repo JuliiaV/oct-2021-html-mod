@@ -1,0 +1,41 @@
+@media screen and (max-width: 951px) {
+    :root {
+        --light: #bfc2ff;
+        --voilet: #9976c4;
+        --darkblue: #192d5e;
+    }
+
+    .social__top_logo {
+        height: 20px;
+        width: 100px;
+    }
+
+    .social__inside-1 {
+        display: none;
+    }
+
+    .social__inside-2 h2 {
+        margin-top: 150px;
+    }
+
+    .social__inside-3 h2 {
+        margin-top: 100px;
+    }
+
+    .social__inside_circle {
+        margin-top: 60px;
+        height: 80px;
+    }
+
+    .circle_inside_text {
+        margin-top: 55px
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .nav_button {
+        display: flex;
+    }
+}
