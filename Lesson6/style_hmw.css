@@ -1,0 +1,249 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    height: 100vh;
+    background: url("Images/back.jpg") no-repeat center/cover;
+}
+
+.header__top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo img {
+    padding-right: 20px;
+}
+
+.header__logo__media, .header__btn__media, .nav__btn_mobile {
+    display: none;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.nav {
+    display: flex;
+    column-gap: 23px;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+    height: 51px;
+    align-items: center;
+}
+
+.nav__item a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.nav__item img {
+    width: 20px;
+}
+
+.header__phone, .header__contact p, .header__btn, .header__title p, .header__button {
+    color: #FFFFFF;
+}
+
+.header__phone {
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.header__contact p {
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.header__phone p {
+    max-width: 180px;
+    padding-top: 1px;
+    justify-content: center;
+}
+
+.header__phone img {
+    max-width: 17px;
+}
+
+.header__contact {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.header__btn {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: #FF7400;
+    border: none;
+    padding: 0 19px;
+    height: 47px;
+    cursor: pointer;
+}
+
+
+.header__title h2, .header__title h1 {
+    font-weight: normal;
+    color: #D67E35;
+}
+
+.header__title {
+    margin-top: 165px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.header__title span h2 {
+    display: none;
+}
+
+.header__title span h1 {
+    display: none;
+}
+
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+}
+
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__title p {
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header__title p::before, .header__title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+
+.header__title p::before {
+    margin-right: 10px;
+}
+
+.header__title p::after {
+    margin-left: 10px;
+}
+
+.header__main .header__btn {
+    margin: 20px 180px;
+    width: 137px;
+    height: 47px;
+}
+
+.header__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    column-gap: 31px;
+    margin-top: 180px;
+}
+
+.header__block_item {
+    position: relative;
+    width: 349px;
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header__block_item span {
+    color: #BC9060;
+}
+
+.header__block_item h3 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.header__block_item p, .header__block_item ul {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+    margin: 17px;
+}
+
+.header__block_item img {
+    padding-top: 35px;
+}
