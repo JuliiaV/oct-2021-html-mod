@@ -1,0 +1,80 @@
+@media screen and (max-width: 400px) {
+    .header {
+        height: 800px;
+    }
+
+    .header__top {
+        padding: 0 35px 58px 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav__btn_mobile div {
+        height: 3px;
+        background: #FF7400;
+        border-radius: 50px
+    }
+
+    .nav__btn_mobile {
+        display: flex;
+        width: 30px;
+        flex-direction: column;
+        row-gap: 4px;
+        justify-content: center;
+    }
+
+    .header__logo img {
+        width: 70px;
+    }
+
+    .header__main {
+        max-width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header__title span h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        line-height: 38px;
+        margin-top: 80px;
+    }
+
+    .header__title span h1 {
+        display: flex;
+        justify-content: center;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 52px;
+    }
+
+    .header__title p {
+        font-size: 20px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    .header__title h2, .header__title h1,
+    .header__title p::before, .header__title p::after {
+        display: none;
+    }
+
+    .header__main .btn-secondary {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        row-gap: 31px;
+        margin-left: 6%;
+        margin-top: 260px;
+    }
+
+}
