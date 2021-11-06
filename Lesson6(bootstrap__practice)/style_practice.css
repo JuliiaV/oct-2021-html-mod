@@ -1,0 +1,136 @@
+.header {
+    max-width: 1550px;
+}
+
+.navbar a {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #0a0a0a;
+}
+
+.navbar-nav {
+    column-gap: 45px;
+}
+
+#navbarNavDropdown {
+    padding-left: 140px;
+    margin: 15px;
+}
+
+.main_1, .main_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main_content h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #1652AC;
+    padding-left: 118px;
+    margin-top: 60px;
+}
+
+.main_content p {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 30px;
+    color: #020303;
+    padding-left: 118px;
+}
+
+.main_content_mobile {
+    display: none;
+}
+
+
+.main_1 img {
+    margin-right: 45px;
+}
+
+.main_content p::before, .main_content p::after {
+    content: "";
+    display: flex;
+    width: 227px;
+    border-bottom: 7px solid #EDEFF3
+}
+
+.main_content p::before {
+    margin-bottom: 50px;
+}
+
+.main_content p::after {
+    margin-top: 50px;
+}
+
+.main_2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header__top {
+    column-gap: 30px;
+}
+
+.main_2 h1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #1652AC;
+    margin-right: 307px;
+    margin-top: 10px;
+}
+
+.main_2 p {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+    width: 477px;
+    height: 200px;
+}
+
+.main_2 span, .main_3 span {
+    font-weight: bold;
+}
+
+.main_2 img {
+    margin-right: 100px;
+}
+
+.main_content_ p, .main_content_ h1 {
+    margin-right: 45px;
+}
+
+.main_3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: #163DA2;
+    max-height: 729px;
+}
+
+.main_3 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    justify-content: center;
+    color: #FBFDFF;
+    margin-left: 165px;
+}
+
+.main_3 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+    margin-left: 165px;
+    margin-right: 323px;
+}

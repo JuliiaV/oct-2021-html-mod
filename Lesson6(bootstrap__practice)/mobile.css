@@ -1,0 +1,136 @@
+@media screen and (max-width: 576px) {
+
+    .navbar-toggler-icon {
+        margin-top: 7px;
+    }
+
+    .navbar-toggler-icon div::before, .navbar-toggler-icon div::after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 4px;
+        background: #C4C4C4;
+        border-radius: 50px;
+        box-shadow: inset .5px 1px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .navbar-toggler-icon p {
+        justify-content: center;
+        align-items: center;
+        height: 4px;
+        background: #C4C4C4;
+        border-radius: 50px;
+        margin-top: 5px;
+        box-shadow: inset .5px 1px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .navbar-toggler-icon div::after {
+        margin-top: -11px;
+    }
+
+    .navbar, .line span {
+        width: 100%;
+        box-shadow: .5px 1px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    .header__main {
+        background-color: #ffffff;
+    }
+
+    .main_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_content h1 {
+        justify-content: center;
+        text-align: center;
+        padding-left: 4%;
+    }
+
+    .main_content h1::after {
+        content: "";
+        display: block;
+        width: 339px;
+        border: 7px solid #e8e8e8;
+    }
+
+    .main_content h1::after {
+        margin-top: 50px;
+        margin-left: 87px;
+    }
+
+    .main_content p {
+        display: none;
+    }
+
+    .main_content_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 32px;
+        color: #020303;
+        padding-left: 35px;
+    }
+
+    .main_1 img {
+        width: 550px;
+        height: 551px;
+        margin-right: 0;
+    }
+
+    .main_2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main_2 h1 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    .main_2 p {
+        margin-top: 20px;
+        padding-left: 35px;
+    }
+
+    .main_2 img {
+        width: 100%;
+    }
+
+    .main_3 {
+        display: flex;
+        flex-direction: column-reverse;
+        max-height: 1080px;
+    }
+
+    .main_3 p {
+        margin: 0 20px 0 0;
+        padding-left: 35px;
+        padding-top: 20px;
+    }
+
+    .main_3 h1 {
+        margin: 0 0 0 35px;
+    }
+
+    .main_content_3 {
+        max-width: 576px;
+        margin-bottom: 100px;
+    }
+
+    .card_img_3 {
+        width: 100%;
+        height: 50%;
+        margin-bottom: 30px;
+    }
+}
